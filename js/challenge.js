@@ -8,6 +8,7 @@ const loaded = document.addEventListener('DOMContentLoaded', (event)=> {
     minusTimer()
     clickHeart()
     clickPause()
+    submitForm()
 })
 
 function timer(){
@@ -81,4 +82,3 @@ function submitForm(){
         form.reset()
     })
 }
-submitForm()
